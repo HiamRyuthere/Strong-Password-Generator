@@ -4,8 +4,8 @@
 import java.util.Random;
 
 public class RANDOMPASSGENERATOR{
-    // private static Random random = new Random();// IDK WHY TO WRITE IT HERE
-    static String PasswordGen() {// IDK WHY STATIC HERE
+    // private static Random random = new Random();
+    static String PasswordGen() {
         Random random = new Random();
 
         char[] charArray = new char[15];
